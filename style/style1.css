@@ -1,0 +1,167 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial;
+}
+
+/* .buttonsNavBar{
+    border-radius: 10px;
+    border-color: black;
+} */
+
+/* -------------------PRIMER BARRA --------------- */
+/* .navbar {
+    padding: 2rem;
+    display: flex;
+} */
+
+.navbar {
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.navbar-nav>.nav-item {
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    background-color:  rgba(191, 8, 87, 1);
+    color: white;
+}
+
+a.nav-link{
+    color: white;
+}
+
+.navbar-nav {
+    gap: 1rem;
+}
+
+.nav-item {
+    text-align: center;
+}
+
+/* ----------------------SEGUNDA BARRA---------- */
+
+button{
+    background-color: rgba(191, 8, 87, 1) !important;
+    border-color: white !important;
+    
+}
+
+/* button:hover{
+    background-color: white !important;
+    border-color: rgba(191, 8, 87, 1) !important;
+} */
+
+
+path{
+    color: white;
+    background-color: white;
+
+}
+
+.p-4 {
+    padding: 1.5rem!important;
+}
+
+
+/* ------------------MAIN--------------------- */
+
+.cardFlex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+}
+
+.indexField {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem ;
+}
+
+.flexCheckbox {
+    display: flex;
+    gap: 1rem !important;
+}
+
+table {
+    width: 100%;
+    border: 1px solid #000;
+
+}
+
+table>thead{
+    background-color: rgba(191, 8, 87, 1);
+    color: white;
+}
+
+tr, th, td {
+    width: 1rem;
+    text-align: center;
+    vertical-align: top;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 0.3em;
+    caption-side: bottom;
+    height: 3rem;
+}
+
+th {
+    background: #eee;
+}
+
+.contactTable{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 2rem;
+    gap: 2rem;
+}
+
+.form-floating{
+    height: 250px !important;
+    width: 690px !important;
+}
+
+.cardDetails{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.shadow-lg {
+    box-shadow: 0 1rem 3rem rgba(var(--bs-body-color-rgb),1.175)!important;
+}
+/* -------------FOOTER-------------------- */
+footer {
+    background-color: rgba(191, 8, 87, 1);
+    padding: 1rem;
+}
+
+.imagenesFooter {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-content: space-around;
+    justify-content: flex-start;
+    gap: 2rem;
+    margin-left: -3px;
+}
